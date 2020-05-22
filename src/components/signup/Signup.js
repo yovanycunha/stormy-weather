@@ -1,10 +1,11 @@
 import styled from 'vue-styled-components';
 
 const Content = styled.div`
+    padding-top: .5rem;
     height: 45rem;
     background-color: #fafafa;
     width: 30rem;
-    font-size: 2rem;
+    font-size: 1.3rem;
     margin: auto;
     margin-top: 3%;
     border-radius: 2rem;
