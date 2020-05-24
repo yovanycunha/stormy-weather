@@ -4,19 +4,22 @@
         <Input placeholder="Informe o seu nome" type="text"/>
         <Input placeholder="Informe o seu email" type="email"/>
         <Input placeholder="Informe uma senha" type="password"/>
+        <Button>Register</Button>
     </Content>
 </template>
 
 <script>
 import { Content } from "./Signup.js";
 import { Input } from "./Input.js";
+import { Button } from "./Button.js";
 import firebase from 'firebase';
 
 export default {
     name: "SignUp",
     components: {
         Content,
-        Input
+        Input,
+        Button
     },
     data() {
         return {
