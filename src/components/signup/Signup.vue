@@ -1,10 +1,10 @@
 <template>
     <Content>
         <h1>Register</h1>
-        <Input placeholder="Informe o seu nome" type="text"/>
-        <Input placeholder="Informe o seu email" type="email"/>
-        <Input placeholder="Informe uma senha" type="password"/>
-        <Button>Register</Button>
+        <Input placeholder="Informe o seu nome" type="text" v-model="form.name" autofocus/>
+        <Input placeholder="Informe o seu email" type="email" v-model="form.email"/>
+        <Input type="password" v-model="form.password"/>
+        <Button v-on:click="submit()" >Register</Button>
     </Content>
 </template>
 
