@@ -1,6 +1,6 @@
 <template>
     <Content>
-        <h1>Register</h1>
+        <h2>Create an account</h2>
         <Input placeholder="Informe o seu nome" type="text" v-model="form.name" autofocus/>
         <Input placeholder="Informe o seu email" type="email" v-model="form.email"/>
         <Input type="password" v-model="form.password"/>
